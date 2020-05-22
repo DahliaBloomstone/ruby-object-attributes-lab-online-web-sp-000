@@ -5,13 +5,13 @@ class Dog
   end
 
   def name
-    @name       reads the name of the dog from an instance variable @name
+    @name #reads the name of the dog from an instance variable @name
   end
-  def breed=(breed)
+  def breed=(breed) #writes the breed of the dog to an instance variable @breed
     @breed = breed
   end
 
   def breed
-    @breed
+    @breed #reads the breed of the dog from an instance variable @breed
   end
 end
